@@ -77,7 +77,9 @@ nav {
   margin-right: 10%; }
 
 .img-i {
-  float: right; }
+  width: 70%;
+  float: right;
+  border: 1px solid #343a401c; }
 
 .content-h {
   padding-top: 5%;
@@ -105,7 +107,6 @@ nav {
   padding-bottom: 10%; }
 
 .project__c {
-  width: 800px;
   margin-left: auto;
   margin-right: auto;
   display: inline-flex; }
@@ -185,10 +186,29 @@ nav {
 .gallery__block {
   padding: 1rem !important; }
 
+.gallery__block img {
+  width: 220px; }
+
+.border-s img {
+  border: 1px solid #343a401c; }
+
 .input-group {
   width: 60% !important;
   margin-left: auto;
   margin-right: auto; }
+
+.input-group-text {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  font-family: 'Mulish', sans-serif !important;
+  font-weight: bold !important;
+  background-color: #343A40 !important;
+  font-size: 15px !important;
+  color: white !important;
+  border: none !important;
+  text-decoration: none !important;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  cursor: pointer; }
 
 .s-home {
   width: 605px;
