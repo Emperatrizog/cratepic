@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    <title>Cratepic</title>
+    <title>Cratepic | Free resources by Cratepic Design Team</title>
+    <meta name="description" content="Details | Pack coffee icon" >    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -33,11 +33,35 @@
               </button>
             </li>
 
-
+<!-- Modal Sign-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="ModalSignin modal-dialog" role="document">
+    <div class="modalSignin__content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modalSignin__body">
+        <div class="login justify-content-center">
+          <h1 class="justify-content-center">Hello 👋</h1><br>
+          <p>Sign in to Cratepic</p><br>
+          <label for="user">Username</label><br>
+          <input type="text" class="modalSignin--form-control form-control"><br><br>
+          <label for="password">Password</label><br>
+          <input type="text" class="modalSignin--form-control form-control"><br><br>
+  
+          <button class="btn modalSignin--btn">Sign In</button>
+          <br><br>
+          <p>I don't have a account <a href="register.html">Register Now</a></p>
+  
+      </div>
           </ul>
         </div>
     </nav><hr>
     <br><br><br>
+
+    
 
     <!-- Image Details -->
 
@@ -49,11 +73,11 @@
                 <div class="col-md-6 custom-s">
                     <ul>
                         <li><h4>Illustration Name</h4></li>
-                        <li id="upload-by"><img src="img/icon-user.png"> Upload by Createpic Team</li><br>
-                        <li id="views-ill"><img src="img/icon-views.png"> 1,000 views</li>
-                        <li id="downloads-ill"><img src="img/icon-dw.png"> 1,000 downloads</li><br>
-                        <li id="dimension-ill"><img src="img/icon-dimension.png"> 1250x700px</li>
-                        <li id="size-ill"><img src="img/icon-size.png"> 1MB</li><br>
+                        <li id="upload-by"><div class="icon"><img src="img/person-i.png"></div> Upload by Createpic Team</li><br>
+                        <li id="views-ill"><div class="icon"><img src="img/view-i.png"></div> 1,000 views</li>
+                        <li id="downloads-ill"><div class="icon"><img src="img/download-i.png"></div> 1,000 downloads</li><br>
+                        <li id="dimension-ill"><div class="icon"><img src="img/size-i.png"></div> 1250x700px</li>
+                        <li id="size-ill"><div class="icon"><img src="img/mb-i.png"></div> 1MB</li><br>
                         <li><button class="btn">download</button></li><br>
                         <li><a href=""><p>copy svg</p></a></li>
                     </ul>
@@ -80,7 +104,7 @@
 
             </div>
             <div class="text-center">
-              <a href="ill-search.html"><button class="btn btn-primary justify-content-center">show more</button></a>
+              <a href="details-search.html"><button class="btn btn-primary justify-content-center">show more</button></a>
             </div>
         </div>
      </section>
